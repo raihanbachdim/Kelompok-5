@@ -10,7 +10,6 @@ int main(){
 	// Mendeklarasikan variabel
 	float a, b, integrasi=0.0, pias,x;
 	int i, nInterval;
-	// clrscr();
 	
 	// Mengambil inputan user, kemudian disimpan dalam variabel
 	printf("Masukan batas bawah integral : ");
