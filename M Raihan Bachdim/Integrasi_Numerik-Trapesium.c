@@ -1,3 +1,4 @@
+// Deklarsi library yang akan digunakan
 #include<stdio.h>
 #include<conio.h>
 #include<math.h>
@@ -43,6 +44,7 @@ int main(){
 	
 	// Menghitung nilai akhir dari total integrasi	
 	integrasi = integrasi * pias/2;
+    // Mencetak hasil akhir integrasi
 	printf("\nNilai hampiran dari integrasi adalah : %.3f", integrasi);
 	getch();
 	return 0;
