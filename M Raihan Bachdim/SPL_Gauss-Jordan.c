@@ -36,6 +36,7 @@ int main() {
     //     {1, 2, 6, -2}
     // };
 
+    printf("\n");
     printf("Matriks anda :\n");
     print_matrix(mat);
     printf("\n");
@@ -57,6 +58,12 @@ int main() {
             }
         }
     }
+
+    
+    printf("Matriks anda setelah perhitungan:\n");
+    print_matrix(mat);
+    printf("\n");
+
     // Mencetak solusi sistem
     printf("Solusi sistem adalah:\n");
     for (int i = 0; i < M; i++) {
