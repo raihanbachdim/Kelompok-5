@@ -59,13 +59,13 @@ int main() {
         }
     }
 
-    
+    // memanggil fungsi untuk mencetak matriks setelah dilakukan operasi spl  
     printf("Matriks anda setelah perhitungan:\n");
     print_matrix(mat);
     printf("\n");
 
-    // Mencetak solusi sistem
-    printf("Solusi sistem adalah:\n");
+    // Mencetak hasil akhir spl
+    printf("Hasil akhir :\n");
     for (int i = 0; i < M; i++) {
         printf("x%d = %lf\n", i+1, mat[i][N]);
     }
